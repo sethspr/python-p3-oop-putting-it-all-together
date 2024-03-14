@@ -3,7 +3,7 @@
 class Shoe:
     def __init__(self, brand, size):
         self.brand = brand
-        self._size = size
+        self.size = size #we do not type self._size with underscore here, becuase it bypasses the setter. 
         self.condition = None #default value of None becuase we do not have any info on the shoe condition. 
 
     def __repr__(self):
